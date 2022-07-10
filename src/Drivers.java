@@ -1,9 +1,9 @@
 public class Drivers {
-    private int driverId;
+    private String driverId;
     private String driverName;
     private String driverTruck;
 
-    public Drivers(int driverId, String driverName, String driverTruck) {
+    public Drivers(String driverId, String driverName, String driverTruck) {
         this.driverId = driverId;
         this.driverName = driverName;
         this.driverTruck = driverTruck;
@@ -12,11 +12,11 @@ public class Drivers {
     public Drivers() {
     }
 
-    public int getDriversId() {
+    public String getDriversId() {
         return driverId;
     }
 
-    public void setDriversId(int driversId) {
+    public void setDriversId(String driversId) {
         this.driverId = driversId;
     }
 
@@ -43,7 +43,7 @@ public class Drivers {
                 ", driver_Name='" + driverName + '\'' +
                 '}';
     }
-    public static Drivers addDrivers(int driverId, String driverName, String driverTruck) {
+    public static Drivers addDrivers(String driverId, String driverName, String driverTruck) {
         Drivers drivers = new Drivers();
         drivers.driverId = driverId;
         drivers.driverName = driverName;

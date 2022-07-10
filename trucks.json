@@ -12,24 +12,9 @@
     "state": "base"
   },
   {
-    "id": 2,
+    "id": 3,
     "name": "DAF XT",
     "driver": " ",
     "state": "base"
-  },
-  {
-    "driverId": "driver-1",
-    "driverName": "Petr",
-    "driverTruck": " "
-  },
-  {
-    "driverId": "driver-2",
-    "driverName": "Askar",
-    "driverTruck": " "
-  },
-  {
-    "driverId": "driver-3",
-    "driverName": "Uson",
-    "driverTruck": " "
   }
 ]
